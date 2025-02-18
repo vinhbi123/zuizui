@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import logo from "../../../public/logo.jpg"
 const Header: React.FC = () => {
     return (
         <><header className="flex justify-center items-center px-6 py-4 bg-white shadow-md">
             <img
-                src="public/951165fc-fae4-4c5b-9d8e-3010e77da74d.jpg"
-                alt="EundeParfum"
+                src={logo} alt="logo"
                 className="h-10 w-auto"
             />
             <h2 className="text-4xl  ml-4 font-grechen">Quỳnh Lưu Mãi Đỉnh</h2>
