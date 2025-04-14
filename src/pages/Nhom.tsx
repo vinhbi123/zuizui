@@ -2,17 +2,12 @@ import React from "react";
 
 const Nhom: React.FC = () => {
     const names = [
-        "Khánh Linh",
         "Hoàng Hiệp",
         "Đức Mua",
         "Hồ Anh",
         "Ngọc Ánh",
         "Long Nhật",
         "Việt Phát",
-        "Văn Hùng",
-        "Chu Hương",
-        "Trương Yến",
-        "Thu Huyền"
     ];
 
     return (
